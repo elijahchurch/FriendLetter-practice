@@ -10,12 +10,18 @@
         <meta charset='utf-8'>
     </head>
     <body>
-        <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
+        <h1>Fill in your name, your friend's name, a place you are visiting, a place you would like to visit, and a souvenir to create your custom postcard!</h1>
         <form action="/postcard" method="post">
         <label for="sender">Sender's Name</label>
         <input id="sender" name="sender" type="text">
         <label for="recipient">Recipient's Name</label>
         <input id="recipient" name="recipient" type="text">
+        <label for="place1">Place You Are Visiting</label>
+        <input id="place1" name="place1" type="text">
+        <label for="place2">Place You Want To Visit</label>
+        <input id="place2" name="place2" type="text">
+        <label for="souvenir">Souvenir</label>
+        <input id="souvenir" name="souvenir" type="text">        
         <button type="submit">Go!</button>
         </form>
     </body>
